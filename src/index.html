@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>贪吃蛇</title>
+    <script defer="defer" src="snackpack.js"></script>
+    <!-- <link rel="shortcut icon" href="./favicon.ico"> -->
+</head>
+<body>
+    <!-- 创建容器 -->
+    <div id="main">
+        <!-- 设置游戏舞台 -->
+        <div id="stage">
+           <!-- 设置蛇 -->
+           <div id="snake">
+            <!-- snake内部的div表示蛇的各部分 -->
+            <div></div>
+           </div>
+           <div id="food">
+            
+           </div>
+        </div>
+         <!-- 设置记分牌 -->
+         <div id="score-panel">
+            <div>
+                SCORE:<span id="score">0</span>
+            </div>
+            <div>
+                LEVEL:<span id="level">1</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
