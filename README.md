@@ -1,4 +1,4 @@
-TS 第一次学习ts后写的snack
+第一次学习ts后写的snack
 
 - **Clone：**
 
